@@ -1,0 +1,26 @@
+{
+  "name": "game-of-pawns",
+  "version": "0.0.1",
+  "description": "Game of Pawns - Shokunin Challenge (April)",
+  "main": "index.js",
+  "author": "Sam C <samuel.chalela@thoughtworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "@babel/core": "7.4.3",
+    "react-testing-library": "^6.0.4"
+  }
+}
