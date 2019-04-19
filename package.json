@@ -19,11 +19,13 @@
     "next": "^8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-html-parser": "^2.0.2",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "babel-jest": "^24.7.1",
+    "babel-plugin-styled-components": "^1.10.0",
     "jest": "^24.7.1",
     "react-testing-library": "^6.0.4"
   }
