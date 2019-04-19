@@ -23,23 +23,26 @@ This application requires Node.js 10+.
 For a FEN-formatted chess board, run `./go.sh --fen`. This produces output like:
 
 ```
-4K3/6N1/2n1P3/P7/2p3k1/3R4/2P5/2P5 w - - 0 1
+2q5/3r1p2/p3P1B1/2P1n1k1/5b2/1p2P3/b2r4/K7 w - - 0 1
 ```
 
 For a plain text chess board, run `./go.sh --grid`. This produces output like:
 
 ```
-.  .  .  .  .  .  .  .
-.  .  .  .  .  .  .  .
-.  .  .  k  .  .  .  K
-N  .  .  .  .  .  n  .
-.  .  .  r  .  .  .  .
-.  N  .  .  n  .  .  .
-P  .  r  .  .  .  .  .
-.  .  .  .  .  P  R  .
+........
+.p.pP...
+...Bp..Q
+.P....r.
+.pP.....
+....qpk.
+.......P
+KNn....b
 ```
 
-For the web view run `yarn web`. This will start a server in localhost:3000 with a SSR react application displaying the chess board and updating the pieces every 10 seconds.
+For the web view run `yarn web`. This will start a server in localhost:3000 with a SSR react application displaying the chess board and updating the pieces every 10 seconds:
+
+![Web Screenshot]('webscreenshot.png')
+
 
 ## Running the tests
 
