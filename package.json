@@ -6,19 +6,23 @@
   "author": "Sam C <samuel.chalela@thoughtworks.com>",
   "license": "MIT",
   "scripts": {
+    "app": "babel-node app.js",
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "jest"
   },
   "dependencies": {
+    "@babel/node": "^7.2.2",
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.1",
     "next": "^8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "^7.4.3",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "react-testing-library": "^6.0.4"
