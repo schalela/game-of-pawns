@@ -40,7 +40,7 @@ For a plain text chess board, run `./go.sh --grid`. This produces output like:
 KNn....b
 ```
 
-For the web view run `yarn web`. This will start a server in localhost:3000 with a SSR react application displaying the chess board and updating the pieces every 10 seconds:
+For the web view run `yarn web`. This will start a server in localhost:3000 with a SSR react application displaying the chess board and updating the pieces every 10 seconds. A deployed version of this application can be found at: https://game-of-pawns-git-master.schalela.now.sh/
 
 ![Web Screenshot](webscreenshot.png)
 
