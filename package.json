@@ -8,6 +8,7 @@
   "scripts": {
     "app": "babel-node app.js",
     "dev": "next",
+    "web": "next",
     "build": "next build",
     "now-build": "next build",
     "start": "next start",
