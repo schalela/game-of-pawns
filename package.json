@@ -9,6 +9,7 @@
     "app": "babel-node app.js",
     "dev": "next",
     "build": "next build",
+    "now-build": "next build",
     "start": "next start",
     "test": "jest"
   },
