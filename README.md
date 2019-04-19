@@ -1,6 +1,7 @@
 # [SHOKUNIN 2019] April Challenge: Game of Pawns
 
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
+[![CircleCI](https://circleci.com/gh/schalela/game-of-pawns.svg?style=svg)](https://circleci.com/gh/schalela/game-of-pawns)
 
 The April TW Shokunin challenge: generate a semi-realistic random chess board according to some rules:
 
@@ -41,7 +42,7 @@ KNn....b
 
 For the web view run `yarn web`. This will start a server in localhost:3000 with a SSR react application displaying the chess board and updating the pieces every 10 seconds:
 
-![Web Screenshot]('webscreenshot.png')
+![Web Screenshot](webscreenshot.png)
 
 
 ## Running the tests
